@@ -1,10 +1,10 @@
 /* Start of CSS Code */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: navy;
@@ -12,9 +12,10 @@ body{
     padding:0;
     
 }
-.buttoncontainer a{
+
+.buttoncontainer a {
     display: inline-block;
-    text-decoration:none ;
+    text-decoration: none;
     padding: 15px;
     background-color: navy;
     border: 2px solid white;
@@ -24,47 +25,50 @@ body{
     
 
 }
-.buttoncontainer{
-    display:flex;
+
+.buttoncontainer {
+    display: flex;
     flex-direction: column;
-    position:absolute;
+    position: absolute;
    
     top: 30px;
     right: 30px;
 }
-.subtitle{
+
+.subtitle {
    margin-top: 15px;
     font-size: 28px;
 }
 
-.gradient{
+.gradient {
     width: 100%;
     height: 150px;
     background-image:linear-gradient(to right,navy,navy);
     margin: 0px 0 20px 0;
-    display:none 
+    display: none;
     
 }
-.pagecontent{
 
-}
-ul,h3,p{
+ul,h3,p {
     text-align:left;
 
 }
 
-img{
+img {
     width: 300px;
 }
-.hero{
-    background-image: url("./assets/images/washingtondc.jpg");
+
+.hero {
+    background-image: url("../images/washingtondc.jpg");
     height: 100vh;
-    background-position: 0 px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
     background-size: cover;
-    position:relative;
+    position: relative;
     text-align: center;
 }
-h1{
+
+h1 {
     position: absolute;
     width:100%;
     top: 40px;

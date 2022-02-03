@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-// Start of Javascript Code
-=======
+// Start of JavaScript code
 // Show apply modal
 // var modal = document.getElementsByClassName("modal")[0];
 // function showModal() {
@@ -35,4 +33,13 @@ let weather = {
 }
 }
 weather.fetchWeather();
->>>>>>> Stashed changes
+
+// Show apply modal
+var modal = document.getElementsByClassName("modal")[0];
+function showModal() {
+    modal.style.display = "block"
+}
+// Hide apply modal
+function hiddenModal() {
+    modal.style.display = "none"
+}

@@ -11,9 +11,22 @@
 </head>
 
 <body>
+    <!-- apply fast modal -->
+    <div class="modal">
+        <div>
+            <span id="closebutton" onclick="hiddenModal()">X</span>Apply Fast!
+            <a data-type="countdown" data-name="Application Deadline:" data-bg_color="#FFFFFF"
+                data-border_color="#FFFFFF" data-name_color="#FF0000" data-digits_color="#000080"
+                data-last_unit_color="#000080" data-dt="2022-11-22 " data-timezone="America/Chicago"
+                style="display: block; width: 100%; position: relative; padding-bottom: 20%;border:none; margin: 90px auto ;"
+                class="tickcounter" href="//www.tickcounter.com">Countdown</a>
+            <a id="applybutton" target="_blank" title="Application Website " href="/apply.html"
+                onclick="hiddenModal()">Apply</a>
 
+
+        </div>
+    </div>
     <div class="hero">
-
         <h1>Society of Martha Washington
             <div class="subtitle"> Washington DC Trip Scholarship</div>
 
@@ -21,7 +34,7 @@
         <div class="buttoncontainer">
             <a target="_blank" title="Close UP website "
                 href="https://www.closeup.org/high-school/high-school-programs/washington-dc/">View Trip Details</a>
-            <a target="_blank" title="Application Website " href="apply.html">Apply</a>
+            <a title="Open Modal " href="#" onclick="showModal()">Apply</a>
             <a title="Award Requirements" href="#pagecontent">Award Requirements</a>
             <a title="Donate link" href="#">SMW Members Donate</a>
         </div>
@@ -44,7 +57,8 @@
             2022 Patriot Scholarship Award Requirements</h2>
         <p>
             The Society of Martha Washington awards patriot scholarships to deserving students to attend close up
-            Washington DC Flagship Program. This civic education program is 6 days/ 5 nights and features meetings with
+            Washington DC Flagship Program. This civic education program is 6 days/ 5 nights and features meetings
+            with
             elected officials on Capitol Hill, structured learning activities at Washington’s stunning monuments and
             memorials and the chance to live and learn with students from other schools nationwide. Covid pandemic
             protocols are in place for the safety of all participants.
@@ -87,7 +101,8 @@
             <li> One essay, minimum 350,maximum 500 on either topic
                 <ul class=indent>
                     <li>
-                        Describe your understanding achievement in depth and provide the specific planning, training,
+                        Describe your understanding achievement in depth and provide the specific planning,
+                        training,
                         goals,
                         and steps
                         taken to make the accomplishment successful. Include details about your role in highlight
@@ -99,7 +114,8 @@
                         students
                         from
                         other
-                        places? What do you want to learn from others? What would you like to know about our government?
+                        places? What do you want to learn from others? What would you like to know about our
+                        government?
                         What
                         does
                         “Patriotism” mean to you</li>
@@ -122,6 +138,7 @@
 
 
     </div>
+    <script src="//www.tickcounter.com/static/js/loader.js" id="tickcounter-sdk"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 <title>Test Branch</title>

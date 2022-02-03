@@ -6,7 +6,8 @@
 
 body {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
     color: navy;
     margin:0;
     padding:0;
@@ -23,8 +24,6 @@ body {
     margin: 10px;
     width: 200px;
     cursor: pointer;
-    
-
 }
 
 .buttoncontainer {
@@ -75,6 +74,7 @@ h1 {
     top: 40px;
     color: white;
 }
+
 .modal {
     position:fixed;
     left: 0;
@@ -86,6 +86,7 @@ h1 {
     display:none;
 
 }
+
 .modal div{
     background-color: white;
     margin: 13% auto;
@@ -97,9 +98,16 @@ h1 {
     padding:55px 10px;
     position:relative;
 }
+
 #closebutton{
     position:absolute;
     top: 25px;
     right: 25px;
     cursor: pointer;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
 }

@@ -14,7 +14,7 @@ body {
     
 }
 
-.buttoncontainer a {
+.buttoncontainer a,#applybutton {
     display: inline-block;
     text-decoration: none;
     padding: 15px;
@@ -23,8 +23,7 @@ body {
     color: white;
     margin: 10px;
     width: 200px;
-    
-
+    cursor: pointer;
 }
 
 .buttoncontainer {
@@ -60,9 +59,10 @@ img {
 }
 
 .hero {
-    background-image: url("./assets/images/washingtondc.jpg");
+    background-image: url("../images/washingtondc.jpg");
     height: 100vh;
-    background-position: 0px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     text-align: center;
@@ -73,6 +73,37 @@ h1 {
     width:100%;
     top: 40px;
     color: white;
+}
+
+.modal {
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0,0, 0, .5);
+    display:none;
+
+}
+
+.modal div{
+    background-color: white;
+    margin: 13% auto;
+    width: 500px;
+    height: 500px;
+    color:red;
+    border-radius: 10%;
+    font-size: 30px;
+    padding:55px 10px;
+    position:relative;
+}
+
+#closebutton{
+    position:absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
 }
 
 h2 {

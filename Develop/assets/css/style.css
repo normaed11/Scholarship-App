@@ -68,8 +68,75 @@ img {
 }
 
 h1 {
+    font-style: italic;
     position: absolute;
     width:100%;
     top: 40px;
     color: white;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.modal {
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0,0, 0, .5);
+    display:none;
+
+}
+
+.modal div{
+    background-color: white;
+    margin: 13% auto;
+    width: 500px;
+    height: 500px;
+    color:red;
+    border-radius: 10%;
+    font-size: 30px;
+    padding:55px 10px;
+    position:relative;
+}
+
+#closebutton{
+    position:absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+/* Weather API CSS */
+
+.weather {
+    color: navy;
+    font-size: 100%;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    height: 50vh;
+    margin: 0; 
+    background-image: url("../images/reshma-mallecha-aJwx1zcwGNE-unsplash.jpg");
+    background-size: cover;
+}
+
+.weatherApi {
+    padding: 20px;
+}
+
+hr {
+    width: 95%;
+    border-width: 1px;
+    color: navy;
+    border-style: solid;
+  }
+>>>>>>> Stashed changes

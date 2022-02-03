@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    margin:0;
+    padding: 0;
+    
+}
+
+    .container {
+        background-color: navy;
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 2px solid black;
+        display:flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        right: 6%;
+        margin-bottom: 25px;
+        color:white;
+        text-align:left;
+    
+    }
+    .applyform {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 1rem;
+        column-gap:  8rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+input,label,textarea,select{
+    width:30vw;
+    font-size: 20px;
+    padding:5px;
+    margin: 5px;
+}
+
+    
+
+img{
+    width: 300px;
+}
+
+.hiddenf,.hiddenm, .hiddeng{
+    display: none
+}
+.button {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 1rem;
+    margin: 15px auto;
+}
+.hero{
+    background-image: url("./assets/images/washingtondc.jpg");
+    height: 300px;
+}

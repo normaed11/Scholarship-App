@@ -69,6 +69,7 @@ img {
 }
 
 h1 {
+    font-style: italic;
     position: absolute;
     width:100%;
     top: 40px;
@@ -111,3 +112,29 @@ h2 {
     font-size: 50px;
     font-style: italic;
 }
+
+/* Weather API CSS */
+
+.weather {
+    color: navy;
+    font-size: 100%;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    height: 50vh;
+    margin: 0; 
+    background-image: url("../images/reshma-mallecha-aJwx1zcwGNE-unsplash.jpg");
+    background-size: cover;
+}
+
+.weatherApi {
+    padding: 20px;
+}
+
+hr {
+    width: 95%;
+    border-width: 1px;
+    color: navy;
+    border-style: solid;
+}
+

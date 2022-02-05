@@ -59,7 +59,7 @@ img {
 }
 
 .hero {
-    background-image: url("./assets/images/washingtondc.jpg");
+    background-image: url("../images/washingtondc.jpg");
     height: 100vh;
     background-position: 0px;
     background-size: cover;

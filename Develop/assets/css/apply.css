@@ -66,6 +66,6 @@ img{
     margin: 15px auto;
 }
 .hero{
-    background-image: url("./assets/images/washingtondc.jpg");
+    background-image: url("../images/washingtondc.jpg");
     height: 300px;
 }

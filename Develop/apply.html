@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/apply.css" />
-    <title>Document</title>
+    <title>Apply</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <!--Header-->
     <header class="header">
 
-        <h1> <img src="./assets/images/logo blue.jpg" /></h1>
+        <h1><img src="./assets/images/logo_blue.jpg" alt="logo" /></h1>
 
     </header>
 
@@ -27,12 +27,20 @@
             Trip Scholarship Application</div>
 
     </h1>
+    <!-- countdown  clock-->
+    <a data-type="countdown" data-name="Application Deadline:" data-bg_color="#FFFFFF" data-border_color="#FFFFFF"
+        data-name_color="#FF0000" data-digits_color="#000080" data-last_unit_color="#000080" data-dt="2022-11-22 "
+        data-timezone="America/Chicago"
+        style="display: block; width: 20%; position: relative; padding-bottom: 5%;border:none; margin: 15px  auto  5px auto ;"
+        class="tickcounter" href="//www.tickcounter.com">Countdown</a>
+
+    <!-- application -->
     <div class="container">
         <form class=applyform>
             <label for="name">Name</label>
             <input id="name" required>
-            <label for="photo">UP Load Your Photo</label>
-            <input id="name" type="file" accept="image/*" required>
+            <label for="photo">Upload Your Photo</label>
+            <input id="photo" type="file" accept="image/*" required>
             <label for="birthdate">Birth Date</label>
             <input id="bod" type="date" required>
             <label for="address">Address </label>
@@ -51,6 +59,7 @@
             <input id="email" type="email" required>
             <label for="hs">High School</label>
             <select name="hs" id="hs" radio required>
+                <option value=" "></option>
                 <option value="cigarroa">Cigarroa High School</option>
                 <option value="drdennis">Dr. Dennis D. Cantu</option>
                 <option value="garcia">Garcia Early College High School</option>
@@ -74,20 +83,21 @@
             </select>
             <label for="graddate">Graduation Date</label>
             <input id="graddate" type="date" required>
-            <label for="jors">Are You are Junior or Senior?</label>
+            <label for="jors">Are you a Junior or Senior?</label>
             <select name="jors" id="jors" radio required>
+                <option value=""> </option>
                 <option value="junior">Junior</option>
                 <option value="senior">Senior</option>
             </select>
-            <label for="classrank">Approximate Class Rank</label>
+            <label for="classrank">Approximate class rank</label>
             <input id="classrank" type="number" required>
             <label for="gpa">Approximate GPA</label>
             <input id="gpa" type="number" required>
             <label for="career">What career or field of study do you plan to pursue?</label>
             <input id="career" required>
-            <label for="clubs">Community Activities and Clubs<br>
-                List high school and community activities and clubs in which you have been involved<br>
-                for the past two years. Be through.
+            <label for="clubs">Community activities and clubs<br>
+                List high school, community activities, and clubs in which you have been involved<br>
+                for the past two years. Be thorough.
             </label>
             <textarea id="clubs" rows=15 required></textarea>
 
@@ -106,7 +116,7 @@
             <input id=uptx type="file" class="hiddenf" />
 
 
-            <label for="motherrname"> Mother's Name</label>
+            <label for="motherrname"> Mother's name</label>
             <input id="mothername">
             <label for="motheroccupation">What is your Mother's occupation?</label>
             <input id="motheroccupation">
@@ -119,7 +129,7 @@
             <label for="upmtax" class="hiddenm"> Please upload mother's income tax </label>
             <input id="upmtax" class="hiddenm" type="file">
 
-            <label for="guardian">What is your Legal Guardian's Name? (if not father or mother)</label>
+            <label for="guardian">What is your legal guardian's name? (if not father or mother)</label>
             <input id="guardian" required>
             <label for="guardianoccupation">What is legal guardian's occupation?</label>
             <input id="guardianroccupation" required>
@@ -129,7 +139,7 @@
                 <option>Yes</option>
                 <option>No</option>
             </select>
-            <label for="upgtax" class="hiddeng"> Please upload legal guardian's income tax </label>
+            <label for="upgtax" class="hiddeng"> Please upload legal guardian's income tax return</label>
             <input id="upgtax" type="file" class="hiddeng">
 
 
@@ -143,31 +153,27 @@
                 <option>Owned</option>
                 <option>Mortagage</option>
             </select>
-            <label for="essay">Please Upload Essay (instruction on award requirements</label>
+            <label for="essay">Please upload essay (see award requirements for instructions)</label>
             <input id="essay" type="file" required>
-            <label for="transcript">Please Upload High School Transcipt</label>
+            <label for="transcript">Please upload high school transcipt</label>
             <input id="transcript" type="file" required>
-            <label for="recommendation">Please Upload Letter of Recomendation from teacher or/and counselor</label>
+            <label for="recommendation">Please upload letter of recommendation from teacher or/and counselor</label>
             <input id="recommendation" type="file" required>
-            <label for="recommendation">Please Upload Letter of Recomendation from teacher or/and counselor</label>
-            <input id="recommendation" type="file" required>
-            <label for="covid">Please Upload your covid vaccinatation card</label>
+            <label for="recommendation2">Please upload second letter of recommendation from teacher or/and
+                counselor</label>
+            <input id="recommendation2" type="file" required>
+            <label for="covid">Please upload your covid vaccination card</label>
             <input id="covid" type="file" required>
             <label for="sign">Student Signature</label>
             <input id="sign" required>
 
             <input type="submit" class=button>
-
-
-
-
-
-
-
-
-
         </form>
-        <script src="./assets/js/apply.js"></script>
+
+        <script src="//www.tickcounter.com/static/js/loader.js" id="tickcounter-sdk"></script>
+        <script src=".assets/js/apply.js"></script>
+     
+    </div>
 </body>
 
 </html>

@@ -77,6 +77,27 @@ img{
     margin: 15px auto;
 }
 
+.buttoncontainer a,#applybutton {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: navy;
+    border: 2px solid white;
+    color: white;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   
+    top: 30px;
+    right: 30px;
+}
+
 .hero{
     background-image: url("../images/washingtondc.jpg");
     height: 300px;

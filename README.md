@@ -1,5 +1,5 @@
-# Your Project Title
-The Society of Marth Washington Scholarship Application
+# The Society of Marth Washington Scholarship Application
+
 
 ## Description 
 

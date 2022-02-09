@@ -57,3 +57,4 @@ https://developers.google.com/maps/documentation/javascript/overview
 https://tailwindcss.com/
 
 
+Published App : https://jch95.github.io/Scholarship-App/
